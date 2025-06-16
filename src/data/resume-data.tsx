@@ -10,7 +10,7 @@ export const RESUME_DATA = {
 	avatar: '/assets/avatar.jpg',
 	personalWebsiteUrl: {
 		name: 'Portfolio',
-		url: 'https://jorgepezuela.site'
+		url: 'https://personal-portfolio-7wiyhcccv-jorgepezuelas-projects.vercel.app'
 	},
 	contact: {
 		link: {
