@@ -1,4 +1,4 @@
-import { GitHubIcon, LinkedInIcon, TelegramIcon } from '@/components/icons'
+import { GitHubIcon, LinkedInIcon } from '@/components/icons'
 
 export const RESUME_DATA = {
 	name: 'Jorge Pezuela',
@@ -6,7 +6,7 @@ export const RESUME_DATA = {
 	location: 'Loeches, Madrid',
 	about: 
 	    'DevOps & Cloud Engineer passionate about automation, scalability, and building reliable infrastructure that empowers development teams.',
-    summary: `I specialize in DevOps, Cloud Computing, and Infrastructure Automation, with hands-on expertise in tools like Kubernetes, Terraform, Docker, and CI/CD pipelines. I design and implement cloud-native architectures that are scalable, secure, and resilient with a strong focus on efficiency and reliability.`,
+    summary: `I specialize in DevOps, Cloud Computing and Infrastructure Automation, with hands-on expertise in tools like Kubernetes, Terraform, Docker, ArgoCD and CI/CD pipelines. I design and implement cloud-native architectures that are scalable, secure, and resilient with a strong focus on efficiency and reliability.`,
 	avatar: '/assets/avatar.jpg',
 	personalWebsiteUrl: {
 		name: 'Portfolio',

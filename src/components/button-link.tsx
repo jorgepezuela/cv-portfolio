@@ -28,13 +28,7 @@ export function ButtonLink({ data }: { data: ResumeData }) {
 			icon: social.icon,
 			name: social.name,
 			type: 'social'
-		})),
-		{
-			url: data.contact.link?.url,
-			icon: LinkIcon,
-			name: data.contact.link?.name,
-			type: 'other links'
-		}
+		}))
 	]
 
 	return (
