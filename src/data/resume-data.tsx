@@ -244,8 +244,8 @@ export const RESUME_DATA = {
 			techStack: ['DevOps'],
 			description: 'Guides for installing and setting up essential DevOps and DevSecOps tools.',
 			link: {
-				label: 'github.com/NotHarshhaa/DevOps_Setup-Installations',
-				href: 'https://github.com/NotHarshhaa/DevOps_Setup-Installations'
+				label: 'github.com/jorgepezuela/devops-setup-installations',
+				href: 'https://github.com/jorgepezuela/devops-setup-installations'
 		  }
 		},
 		{
