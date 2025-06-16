@@ -125,6 +125,20 @@ export default function Page() {
 				</Section>
 
 				<Section>
+					<h2 className='text-xl font-bold'>Courses and Certifications</h2>
+					<div className='-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3'>
+						{data.certifications.map((cert) => (
+							<ProjectCard
+								key={cert.title}
+								title={cert.title}
+								description={cert.description}
+								tags={cert.techStack}
+							/>
+						))}
+					</div>
+				</Section>
+
+				<Section>
 					<h2 className='text-xl font-bold'>Skills</h2>
 					<div className='flex flex-wrap gap-1'>
 						{data.skills.map((skill) => (

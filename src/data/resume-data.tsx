@@ -53,6 +53,53 @@ export const RESUME_DATA = {
 		  ]
 		}
 	],
+	certifications: [
+		{
+			title: 'Microsoft Certified: Azure Fundamentals',
+			techStack: ['Azure'],
+			description: 'Fundamentals of Microsoft Azure'
+		},
+		{
+			title: 'AWS Cloud Practitioner (CLF-C02)',
+			techStack: ['AWS'],
+			description: 'Fundamentals of AWS Cloud'
+		},
+		{
+			title: 'CKA Certification Course - Certified Kubernetes Administrator',
+			techStack: ['Kubernetes'],
+			description: 'Certified Kubernetes Administrator (CKA) demonstrating expertise in Kubernetes operations'
+		},
+		{
+			title: 'DevSecOps - Kubernetes DevOps & Security',
+			techStack: ['Kubernetes', 'DevOps'],
+			description: 'DevSecOps - Kubernetes DevOps & Security demonstrating expertise in Kubernetes application development'
+		},
+		{
+			title: 'Red Hat Certified System Administrator(RHCSA)',
+			techStack: ['Linux'],
+			description: 'Red Hat Certified System Administrator(RHCSA) demonstrating expertise in system administration'
+		},
+		{
+			title: 'Terraform Associate Certification: HashiCorp Certified',
+			techStack: ['Terraform'],
+			description: 'Terraform Associate Certification: HashiCorp Certified demonstrating expertise in Terraform.'
+		},
+		{
+			title: 'PCAP - Python Certification Course',
+			techStack: ['Python'],
+			description: 'PCAP - Python Certification Course demonstrating expertise in Python.'
+		},
+		{
+			title: 'Jenkins',
+			techStack: ['Jenkins'],
+			description: 'Demonstrating expertise in Jenkins.'
+		},
+		{
+			title: 'Kustomize',
+			techStack: ['Kustomize', 'Kubernetes'],
+			description: 'Demonstrating expertise in Kustomize.'
+		}
+	],
 	work: [
 		{
 		  company: 'Sogeti',

@@ -58,6 +58,12 @@ export interface PersonalWebsiteUrl {
 	url: string
 }
 
+export interface Certification {
+	title: string
+	techStack: string[]
+	description: string
+}
+
 export interface Project {
 	title: string
 	techStack: string[]
@@ -79,4 +85,5 @@ export interface ResumeData {
 	work: WorkEntry[]
 	skills: string[]
 	projects: Project[]
+	certifications: Certification[]
 }
