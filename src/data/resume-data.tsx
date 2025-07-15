@@ -45,11 +45,8 @@ export const RESUME_DATA = {
 		  start: 'Sep, 2013',
 		  end: 'Jun, 2015',
 		  description: [
-			'Built a strong foundation in core engineering principles including thermodynamics, fluid mechanics, and material science.',
+			'Built a strong foundation in core engineering/computing principles.',
 			'Explored interdisciplinary interests that led to a growing passion for automation and cloud infrastructure.',
-			'Worked on academic and practical projects involving design, analysis, and simulation of mechanical systems.',
-			'Participated in workshops and tech fests, developing early skills in problem-solving and teamwork.',
-			'This journey eventually sparked a shift toward DevOps, cloud computing, and open-source collaboration.'
 		  ]
 		}
 	],
