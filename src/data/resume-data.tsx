@@ -155,7 +155,71 @@ export const RESUME_DATA = {
 			}
 		  ]
 		}
-	],	  
+	],
+	problems: [
+		{
+			title: 'Azure API Manager Performance Optimization',
+			problem: [
+				"The Azure API Manager was saturated, causing microservices to experience slowness during peak loads.",
+				"The challenge was to maintain consistent performance while managing API traffic efficiently."
+			],
+			solution: [
+				"Designed and implemented an automated scaling solution for Azure API Manager.",
+				"Created a custom script that monitored third-party endpoint conditions to trigger scaling events.",
+				"Implemented a dynamic scaling strategy that adjusted APIM units based on real-time traffic conditions.",
+				"The solution improved API response times and reduced latency during peak loads.",
+				"Technologies: Azure API Manager, PowerShell, Custom Scripts, Monitoring Tools"
+			]
+		},
+		{
+			title: 'CI/CD Pipeline Performance Optimization',
+			problem: [
+				"A large enterprise's CI/CD pipelines were experiencing significant delays, with build times exceeding 45 minutes.",
+				"The pipelines utilized shared resources, leading to resource contention and inconsistent build times.",
+				"When a modification needed to be done on all (team) pipelines, it had to be done manually on each pipeline."
+			],
+			solution: [
+				"Redesigned the pipeline architecture to use dedicated build agents for each team running on Kubernetes with resource isolation.",
+				"Unify all pipelines in a architecture based on templates to optimize its management, allowing to update all pipelines at once.",
+				"The optimized pipelines reduced average build times by 70% and improved reliability.",
+				"Technologies: Azure DevOps, Kubernetes, Custom Scripts"
+			]
+		},
+		{
+			title: 'Disaster Recovery for Critical Enterprise Applications',
+			problem: [
+				"A financial institution needed to ensure business continuity for their mission-critical applications.",
+				"The existing disaster recovery plan was manual and time-consuming, with high risk of human error.",
+				"The recovery process needed to be automated while maintaining data consistency and regulatory compliance."
+			],
+			solution: [
+				"Developed an automated disaster recovery solution using Terraform.",
+				"Implemented cross-region replication for critical databases and stateful services.",
+				"Created automated testing procedures to validate recovery procedures.",
+				"The solution reduced recovery time from hours to minutes and improved compliance with regulatory requirements.",
+				"Technologies: AWS/Azure, Terraform, Custom Scripts"
+			]
+		},
+		{
+			title: 'Azure App Services Migration to Kubernetes',
+			problem: [
+				"Needed to migrate 300+ Azure App Services to Kubernetes microservices.",
+				"Container images were initially hosted on DockerHub and needed to be moved to Azure Container Registry (ACR).",
+				"The challenge was to implement a self-service deployment process for developers while maintaining security and consistency."
+			],
+			solution: [
+				"Successfully migrated 300+ Azure App Services to Kubernetes microservices.",
+				"Implemented container image migration from DockerHub to Azure Container Registry.",
+				"Designed and implemented a GitOps architecture using ArgoCD with Kustomize for configuration management.",
+				"Created automated deployment pipeline that enables developers to:",
+				"- Apply code changes",
+				"- Build and deploy microservices automatically through ArgoCD",
+				"- Eliminate DevOps team intervention for routine deployments",
+				"The solution streamlined the deployment process and improved developer productivity.",
+				"Technologies: Kubernetes, ArgoCD, Kustomize, Azure Container Registry, CI/CD Pipelines"
+			]
+		}
+	],
 	skills: [
 		'AWS',
 		'Azure',

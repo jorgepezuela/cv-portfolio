@@ -99,8 +99,31 @@ export default function Page() {
 				</Section>
 
 				<Section>
+					<h2 className='text-xl font-bold'>Real Problems Solved</h2>
+					{data.problems.map((problem: { title: string; problem: string[]; solution: string[] }) => (
+						<Card key={problem.title}>
+							<CardHeader>
+								<h3 className='font-semibold leading-none text-base'>{problem.title}</h3>
+							</CardHeader>
+							<CardContent className='mt-2 mb-4 text-xs'>
+								<div className='flex flex-col md:flex-row md:items-center justify-between gap-x-2 text-sm'>
+									<h4 className='font-mono text-primary'>{problem.title}</h4>
+								</div>
+								<ul className='mt-2'>
+									{problem.problem.map((item, index) => (
+										<li key={index} className='mb-1'>
+											• {item}
+										</li>
+									))}
+								</ul>
+							</CardContent>
+						</Card>
+					))}
+				</Section>
+
+				<Section>
 					<h2 className='text-xl font-bold'>Education</h2>
-					{data.education.map((education) => (
+					{data.education.map((education: { school: string; degree: string; start: string; end: string; description: string[] }) => (
 						<Card key={education.school}>
 							<CardHeader>
 								<h3 className='font-semibold leading-none text-base'>{education.school}</h3>

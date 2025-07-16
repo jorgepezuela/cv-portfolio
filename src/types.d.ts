@@ -71,7 +71,14 @@ export interface Project {
 	link: ProjectLink
 }
 
+export interface Problem {
+	title: string
+	problem: string[]
+	solution: string[]
+}
+
 export interface ResumeData {
+	problems: Problem[]
 	name: string
 	initials: string
 	location: string
