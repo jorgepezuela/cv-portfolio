@@ -116,6 +116,13 @@ export default function Page() {
 										</li>
 									))}
 								</ul>
+								<ul className='mt-2'>
+									{problem.solution.map((item, index) => (
+										<li key={index} className='mb-1'>
+											• {item}
+										</li>
+									))}
+								</ul>
 							</CardContent>
 						</Card>
 					))}
