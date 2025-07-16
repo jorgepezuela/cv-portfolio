@@ -106,9 +106,6 @@ export default function Page() {
 								<h3 className='font-semibold leading-none text-base'>{problem.title}</h3>
 							</CardHeader>
 							<CardContent className='mt-2 mb-4 text-xs'>
-								<div className='flex flex-col md:flex-row md:items-center justify-between gap-x-2 text-sm'>
-									<h4 className='font-mono text-primary'>{problem.title}</h4>
-								</div>
 								<ul className='mt-2'>
 									<h5 className='font-bold text-primary'>Problem</h5>
 									{problem.problem.map((item, index) => (
