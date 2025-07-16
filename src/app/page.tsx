@@ -110,6 +110,7 @@ export default function Page() {
 									<h4 className='font-mono text-primary'>{problem.title}</h4>
 								</div>
 								<ul className='mt-2'>
+									<h5 className='font-mono text-primary'>Problem</h5>
 									{problem.problem.map((item, index) => (
 										<li key={index} className='mb-1'>
 											• {item}
@@ -117,6 +118,7 @@ export default function Page() {
 									))}
 								</ul>
 								<ul className='mt-2'>
+									<h5 className='font-mono text-primary'>Solution</h5>
 									{problem.solution.map((item, index) => (
 										<li key={index} className='mb-1'>
 											• {item}
