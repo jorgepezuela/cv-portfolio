@@ -168,7 +168,6 @@ export const RESUME_DATA = {
 				"Created a custom script that monitored third-party endpoint conditions to trigger scaling events.",
 				"Implemented a dynamic scaling strategy that adjusted APIM units based on real-time traffic conditions.",
 				"The solution improved API response times and reduced latency during peak loads.",
-				"Technologies: Azure API Manager, PowerShell, Custom Scripts, Monitoring Tools"
 			]
 		},
 		{
@@ -182,7 +181,6 @@ export const RESUME_DATA = {
 				"Redesigned the pipeline architecture to use dedicated build agents for each team running on Kubernetes with resource isolation.",
 				"Unify all pipelines in a architecture based on templates to optimize its management, allowing to update all pipelines at once.",
 				"The optimized pipelines reduced average build times by 70% and improved reliability.",
-				"Technologies: Azure DevOps, Kubernetes, Custom Scripts"
 			]
 		},
 		{
@@ -197,7 +195,6 @@ export const RESUME_DATA = {
 				"Implemented cross-region replication for critical databases and stateful services.",
 				"Created automated testing procedures to validate recovery procedures.",
 				"The solution reduced recovery time from hours to minutes and improved compliance with regulatory requirements.",
-				"Technologies: AWS/Azure, Terraform, Custom Scripts"
 			]
 		},
 		{
@@ -216,7 +213,6 @@ export const RESUME_DATA = {
 				"- Build and deploy microservices automatically through ArgoCD",
 				"- Eliminate DevOps team intervention for routine deployments",
 				"The solution streamlined the deployment process and improved developer productivity.",
-				"Technologies: Kubernetes, ArgoCD, Kustomize, Azure Container Registry, CI/CD Pipelines"
 			]
 		}
 	],
