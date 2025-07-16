@@ -99,7 +99,7 @@ export default function Page() {
 				</Section>
 
 				<Section>
-					<h2 className='text-xl font-bold'>Real Problems Solved</h2>
+					<h2 className='text-xl font-bold'>Some Real Problems Solved</h2>
 					{data.problems.map((problem: { title: string; problem: string[]; solution: string[] }) => (
 						<Card key={problem.title}>
 							<CardHeader>
